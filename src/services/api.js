@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://sirawdev.com.et/asset-management/api/login.php';
+// CORRECT: The URL must be the base folder of your API
+const API_BASE_URL = 'https://sirawdev.com.et/asset-management/api/';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
